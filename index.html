@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avistamientos OVNI en EE.UU.</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('Imagenes/imagen_fondo.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      font-family: 'Segoe UI', sans-serif;
+      color: #f0f0f0;
+      text-shadow: 1px 1px 2px black;
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.80);
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 1000px;
+      border-radius: 15px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+    img {
+      display: block;
+      max-width: 90%;
+      margin: 2rem auto;
+      border: 4px solid white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px black;
+      width: 100%;
+      height: auto;
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🎵 Música ambiental -->
+  <audio id="bg-music" loop preload="auto" autoplay>
+    <source src="Imagenes/bgm007-electronica-experimental-digital-wonder-ufo-148340.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio>
+
+  <script>
+    document.body.addEventListener('click', function() {
+      var audio = document.getElementById('bg-music');
+      if (audio.paused) {
+        audio.volume = 0.3;
+        audio.play();
+      }
+    });
+  </script>
+
+  <div class="container">
+    <h1>Explorando los Avistamientos de OVNIs en EE.UU.</h1>
+
+    <p>
+      Desde la década de 1940, miles de personas han reportado avistamientos de objetos voladores no identificados en Estados Unidos. Este sitio recopila datos reales procesados con herramientas estadísticas para revelar patrones interesantes sobre las formas, ubicaciones y tiempos de estos fenómenos.
+    </p>
+
+    <p>
+      Si bien muchas explicaciones pueden apuntar a fenómenos naturales o creaciones humanas, los reportes siguen generando debate público, interés científico y teorías que capturan la imaginación popular.
+    </p>
+
+    <h2>Formas más comunes de OVNIs observadas</h2>
+    <p>
+      Se han reportado OVNIs de muchas formas distintas. En este gráfico tipo <strong>gráfico de área polar</strong> se muestran las 5 más frecuentes en los reportes de testigos en Estados Unidos.
+    </p>
+    <img src="Imagenes/gg1.png" alt="Formas comunes de OVNIs">
+
+    <h2>Evolución anual de los avistamientos</h2>
+    <p>
+      A lo largo de los años, los reportes han mostrado subidas y bajadas. ¿Coinciden con eventos globales, lanzamientos de películas o avances tecnológicos? Este <strong>gráfico de área</strong> nos da pistas.
+    </p>
+    <img src="Imagenes/gg2.png" alt="Avistamientos de OVNIs por año">
+
+    <h2>Estados con mayor número de reportes</h2>
+    <p>
+      Algunos estados muestran una tendencia notablemente más alta de avistamientos. Este <strong>gráfico de burbujas</strong> permite comparar visualmente la concentración de eventos por estado.
+    </p>
+    <img src="Imagenes/gg3.png" alt="Estados con más avistamientos OVNI">
+
+    <h2>¿Cuándo ocurren más avistamientos?</h2>
+    <p>
+      Analizando la variable hora del día, descubrimos un patrón interesante. Este <strong>gráfico de densidad de avistamientos por hora</strong> revela en qué momentos del día ocurren más reportes.
+    </p>
+    <img src="Imagenes/gg4.png" alt="Distribución horaria de avistamientos">
+
+    <h2>Curiosidades sobre los OVNIs</h2>
+    <p>
+      - El término "platillo volador" se popularizó en 1947 tras el testimonio de Kenneth Arnold, piloto que describió objetos volando como “platillos saltando sobre el agua”.<br>
+      - La Fuerza Aérea de EE.UU. investigó los OVNIs bajo proyectos como Blue Book (1952-1969), donde se analizaron más de 12,000 reportes.<br>
+      - En 2020, el Pentágono reconoció oficialmente la existencia de videos auténticos de fenómenos aéreos no identificados captados por pilotos militares.
+    </p>
+
+    <h2>Autores</h2>
+    <p>
+      Esta página fue desarrollada por <strong>Barbara Molina y Maria Pinto</strong> como una exploración independiente del fenómeno OVNI en EE.UU. mediante análisis de datos abiertos.
+    </p>
+    <p class="quote">_"No todos los que miran al cielo buscan respuestas... pero todos los datos sí pueden dárnoslas."_</p>
+  </div>
+
+</body>
+</html>
